@@ -51,40 +51,89 @@ The **Search & Reporting** app provides a default interface for searching, analy
  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469164422-9410c59a-0a83-4d95-b3ff-d2cf0b823509.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODQwMDQsIm5iZiI6MTc1MzE4MzcwNCwicGF0aCI6Ii82NzU4Nzk4NS80NjkxNjQ0MjItOTQxMGM1OWEtMGE4My00ZDk1LWIzZmYtZDJjZjBiODIzNTA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDExMjgyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ0YzhjZTIwMTJkYWNjMTk2MjY4MmE2ZDNhOGUxNTNhYWY5OWE5NmM4OGY3YzUzMTM2MTZhMGJlZTJjMTg2MWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._TzNocyOdX40wERi5QxFlb_bpbLNS79irXQZn12X9Ng)
 
  ## 🆕 New Search Interface Components
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469197172-fa82a930-7ead-4665-80fb-0b67e0e1ada5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODg2OTUsIm5iZiI6MTc1MzE4ODM5NSwicGF0aCI6Ii82NzU4Nzk4NS80NjkxOTcxNzItZmE4MmE5MzAtN2VhZC00NjY1LTgwZmItMGI2N2UwZTFhZGE1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEyNDYzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVhMDdhMDM2YjAwMDhiYjJjMzZjNGZkNzllN2MyNmRkY2IyZTk3NWIzNjE0YzVlYzg5ZmUwM2U3ZDBhYTAxNjAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.FIsurz3PlzcYPXi6U5RU3FRI6l1M4TwzKIKRquR-Ois)
+## 💾 Save As Menu
 
-- **Save As Menu** – Allows saving search as knowledge object.
-- **Search Result Tabs**:
-  - **Event Tab** – Displays events returned for the search.
-  - **Pattern Tab** – Allows to see pattern in the data.
-  - **Statistic/Visualization Tabs** – Display search-generated statistics/visualizations.
-- **Search Action Button**:
-  - Edit, Send to background, Inspect search jobs, Delete search jobs
-  - **Export icon** – Raw, CSV, XML, JSON
-- **Search Mode Selector**:
-  - **Fast mode** – Cuts down on field info, only returns default and required fields.
-  - **Smart mode** – Toggles behavior based on type of search run.
-  - **Verbose mode** – Returns all fields and events, discovers everything possible.
-- **Timeline** – Dynamically decided by the time chosen in the Time Range Picker; can select specific range to investigate.
-- **Event List**
-- **Field Sidebar**:
-  - **Selected Fields** – Default fields
-  - **Interesting Fields** – Extracted by Splunk based on its metadata
+The **Save As Menu** allows you to save your search as a knowledge object for future reuse and sharing.
 
-> **Note:** Commands that create statistics and visualizations are called **transforming commands**.
+![Save As Menu in Splunk](https://private-user-images.githubusercontent.com/67587985/469197616-e728c287-a1c1-4149-9a5b-a8e4d930bca2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODg3MzQsIm5iZiI6MTc1MzE4ODQzNCwicGF0aCI6Ii82NzU4Nzk4NS80NjkxOTc2MTYtZTcyOGMyODctYTFjMS00MTQ5LTlhNWItYThlNGQ5MzBiY2EyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEyNDcxNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY1YWExODRmNDNmNjQ1ZTAwZTE3NzY5NzJmNDJkMGM2NmI2Yzg4NGMyZGI3MWVhMWIxNzAzM2M0Y2FlYzZlZWMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.GqPKex8FTWeXO5ZwDYC7aE0KhIi-NrRmczT9_B8FMJM)
+
+## 🔍 Search Interface Components
+
+### 🗂️ Search Result Tabs
+- **Event Tab** – Displays events returned for the search.
+- **Pattern Tab** – Allows you to see patterns in the data.
+- **Statistic / Visualization Tabs** – Display search-generated statistics or visualizations.
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469199212-90aa7e0c-813d-4b86-950f-28533fdbf542.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODkwMDIsIm5iZiI6MTc1MzE4ODcwMiwicGF0aCI6Ii82NzU4Nzk4NS80NjkxOTkyMTItOTBhYTdlMGMtODEzZC00Yjg2LTk1MGYtMjg1MzNmZGJmNTQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEyNTE0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyZTljMjk3NmEzOTFiM2I3YzYwZTgzZDExMmZhMDE5OTUxMGQyNjM1MTIyMTE1YzYwNWU4MmE0MDIyYWJlNzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Hg9xwVqP02PtNFK3_ZJyoDLrrMAGHExrLvGNG4iavZU)
+---
+
+### ⚙️ Search Action Button
+
+The **Search Action Button** provides quick access to several actions for managing your search jobs:
+
+- **Edit Job Setting**
+- **Send to Background**
+- **Inspect Search Jobs**
+- **Delete Search Jobs**
+
+![Search Action Button in Splunk](https://private-user-images.githubusercontent.com/67587985/469200284-81493940-e28e-4a5f-8f00-203873886521.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODkxNTYsIm5iZiI6MTc1MzE4ODg1NiwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDAyODQtODE0OTM5NDAtZTI4ZS00YTVmLThmMDAtMjAzODczODg2NTIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEyNTQxNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc4YzAyMjAxZWEwMjIxYmU2M2Y4YWMzMmJjNzljYWI4OTA3NTY3YTJkMTg0MWQ1N2FkMzM1YzNhNzRkOTRhNjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.seP6n1OYohkyIN9hxWRRpS0KlKMQ8Y2Tn0Kh8bjOUtk)
 
 ---
 
-## ⏲️ Search Job Duration
+### 📤 Export Icon
 
-- By default, a search job will remain active for **10 minutes**, after which Splunk needs to re-run the job.
-- A **shared job** will remain active for **7 days**.
+Use the **Export Icon** to download your search results in the following formats:
+
+- **Raw**
+- **CSV**
+- **XML**
+- **JSON**
+
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469201853-d5cbd191-5318-4906-8016-84954872cda8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODk0MTYsIm5iZiI6MTc1MzE4OTExNiwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDE4NTMtZDVjYmQxOTEtNTMxOC00OTA2LTgwMTYtODQ5NTQ4NzJjZGE4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEyNTgzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdlMDNjMzY5MTEwZTc2MTM0MWRhMTQ4MzdkOGJmNTQwYmM5NDM5NzRlZmE3YmU5MjkzYjNlODc2MjgwNzhlMzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.B0hK3fbh2OlLMouOqY8Damj1d-gTFHD257Zp7Bd76l4)
+
+---
+
+### 🔄 Search Mode Selector
+- **Fast Mode** – Cuts down on field info; only returns default and required fields.
+- **Smart Mode** – Toggles behavior based on the type of search run.
+- **Verbose Mode** – Returns all fields and events; discovers everything possible.
+
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469202334-e502d0bf-aa48-4866-a5e4-01acfb1de889.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODk0OTcsIm5iZiI6MTc1MzE4OTE5NywicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDIzMzQtZTUwMmQwYmYtYWE0OC00ODY2LWE1ZTQtMDFhY2ZiMWRlODg5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEyNTk1N1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNmMTc4OTIxODAzM2NjYWU3NDM5YzBjMzgzMWJmOTI2YmYyNGI1M2FlNmRjMjFlYTE5N2FiYTJmMmM1MmQ1ZWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.saYwJyKA0DptVuZmOdxMkuqkElnHsWkuSllitN7L7Do)
+---
+
+### 🕒 Timeline
+- Dynamically adjusted based on the time range chosen in the **Time Range Picker**.
+- You can select a specific range on the timeline to investigate further.
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469202711-a1b0409d-6aca-41c8-b266-645e32ed3bd1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODk1NDgsIm5iZiI6MTc1MzE4OTI0OCwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDI3MTEtYTFiMDQwOWQtNmFjYS00MWM4LWIyNjYtNjQ1ZTMyZWQzYmQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMDA0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIxZjRhMmNiZTIwYzc5NTdmOGExNmZjNjk4NTdmZmViZTY3NmM5MTU5YTM3MmM5ZTczM2I1YzdiZGUyM2Y4NjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Bodew2XMWKUwzilp1ESaaAjQijOrdfU2KE77-xRW0bw)
+---
+
+### 📃 Event List
+Displays a list of matching events for the query.
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469203178-a1841034-11b3-491d-96c3-6aa128214794.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODk2MjQsIm5iZiI6MTc1MzE4OTMyNCwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDMxNzgtYTE4NDEwMzQtMTFiMy00OTFkLTk2YzMtNmFhMTI4MjE0Nzk0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMDIwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NWM1MDU3NjY0YTQ1YzY2YzA0MTdiOWEwYTg2Y2E5NTZhODk4NDU0YTYxNjFjNDc3MWQ1NTM3MTEyZWVkYWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.I7Q139nURf3iN_PAgoDIx5KLGLXmzwCup9z4vLfknb0)
+---
+
+### 🧾 Field Sidebar
+
+The **Field Sidebar** helps users explore fields extracted from the events in their search results. It contains two main sections:
+
+- **Selected Fields** – Default fields included in the search results.
+- **Interesting Fields** – Fields extracted by Splunk based on metadata analysis and relevance.
+
+![Field Sidebar in Splunk](https://private-user-images.githubusercontent.com/67587985/469203632-3bd51147-c624-4980-9da6-1e5045f2932f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODk2ODgsIm5iZiI6MTc1MzE4OTM4OCwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDM2MzItM2JkNTExNDctYzYyNC00OTgwLTlkYTYtMWU1MDQ1ZjI5MzJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMDMwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM2MDYyYzU5NjAyNGEyMjQ2NTc2NGUzNDAwNmIzZjY2NjI5OTYxNzdmMDE2OTY5ZjNmNWJmODY0ZmZhNDkwYWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ZOrutleNZHtIfgJoZzpazAEb0ImKtRpY1cHnX9MEdek)
+
+## ⏲️ Default Features
+
+> **Note:** Commands that create statistics and visualizations are called **transforming commands**
+> **Note:** By default, a search job will remain active for **10 minutes**, after which Splunk needs to re-run the job.
+> **Note:** A **shared job** will remain active for **7 days**.
 
 ---
 
 ## 🧭 Exploring Events
 
 In the event list:
-
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469205262-1d28f655-c374-4066-b3d0-39302311776d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODk5MjYsIm5iZiI6MTc1MzE4OTYyNiwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDUyNjItMWQyOGY2NTUtYzM3NC00MDY2LWIzZDAtMzkzMDIzMTE3NzZkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMDcwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiZmRlNDY5MDIxMjE1YzA1YTEyOGM5Yzg4MGY2ODM3NGE2YWJjZmRjYThmNjI4Y2U0YWUzYWQ0YzJiYTU3OGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.WtUyMqQ5bmtlZMsuqa4fweyFn00YIbDrTplm2CJIG2E)
+ 
 - Search term will be highlighted.
 - Events are shown with newest first.
 - Timestamp is based on user's timezone settings.
@@ -93,21 +142,53 @@ In the event list:
   - Add to search
   - Exclude events with that text
   - Launch new search using the text
-  - Info button opens dropdown for event action
+   ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469205872-e930c19a-814d-47e4-8860-5a33cc62137e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTAwMjAsIm5iZiI6MTc1MzE4OTcyMCwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDU4NzItZTkzMGMxOWEtODE0ZC00N2U0LTg4NjAtNWEzM2NjNjIxMzdlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMDg0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJlM2JiMjkyYzRiZDg3MGEwMzY4YzFhOTI5MmNmYjRlNjhkNzM3YmI0YTRmZmIxYzVjMDdjZDhhOTVmN2U1YmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-2FnnajFVfY99IXoI2q9cNK43fqB9ORKpryYLBljCL0)
+- Info button opens dropdown for event action
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469206088-f19ec568-82b2-496b-b610-2ca3241c7172.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTAwNDEsIm5iZiI6MTc1MzE4OTc0MSwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDYwODgtZjE5ZWM1NjgtODJiMi00OTZiLWI2MTAtMmNhMzI0MWM3MTcyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMDkwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdiN2RlZWYwMDY4N2RkYmE1N2JmMjJmODgwMTNkNmFhMWY4NGNkOTkyM2M3N2FlZDYzYThmYTJlMjUwNmMzMjEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.SFpEdV3uXJgozaqHDk72H69VXNfPaez6u-EMJ4ZFMrA)
 
 ---
 
 ## 🧠 Using Search Terms
 
-1. Add `*` at the end of word to return events that start with the word.
-2. Not case sensitive – all matching results are returned.
-3. **Booleans** (used with multiple terms, with order of evaluation):
-   - `NOT`, `OR`, `AND`
-   - Use parentheses `()` to control evaluation order.
-4. Exact phrases – Place quotes `" "` around them.
-5. Use backslash (`\`) to escape multiple quotes.
+Mastering Splunk search syntax helps extract meaningful results. Below are useful techniques with visual examples.
 
 ---
+
+### 1. 🔎 Wildcard Search  
+Add `*` at the end of a word to return events that start with that word.
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469207027-7dceca90-35f7-4519-8ec3-6044330d89f3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTAxODcsIm5iZiI6MTc1MzE4OTg4NywicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDcwMjctN2RjZWNhOTAtMzVmNy00NTE5LThlYzMtNjA0NDMzMGQ4OWYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMTEyN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQwOGI5ZmZkZWI1MjllODFiNzZiNWMyMmRhZmEyMjA3MmVlNjRiOWZjMTQ5ODMzNGU5NDYzOTM3NjI4YzliNjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.x_eHu4vI1rd5M0n7jygs7kWx6U8hq2pwVFrpDEk8pmA)
+
+---
+
+### 2. 🔤 Case Insensitive  
+Search is not case sensitive – all matching results are returned.
+
+---
+
+### 3. ⚖️ Boolean Operators  
+Used with multiple terms (evaluated in this order):  
+- `NOT`, `OR`, `AND`
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469207027-7dceca90-35f7-4519-8ec3-6044330d89f3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTA1MTksIm5iZiI6MTc1MzE5MDIxOSwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDcwMjctN2RjZWNhOTAtMzVmNy00NTE5LThlYzMtNjA0NDMzMGQ4OWYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMTY1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzYjBmYjU3NWYwODQ3NzdhYmIxMDhjYTQ2YTEzYWY3ZGYyNmM4MDdiNTNjNzVkNDBiZjRjNGIwYTdjYTkxOTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.J7yaXFsfPJ_ifM-_bZkcrGNViY6rNvtFywMf8-NNQJ0)
+
+> 💡 Use parentheses `()` to control the evaluation order.
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469207173-5a480aea-ae03-42e0-8f7e-5fc4e775cc42.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTA1MTUsIm5iZiI6MTc1MzE5MDIxNSwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDcxNzMtNWE0ODBhZWEtYWUwMy00MmUwLThmN2UtNWZjNGU3NzVjYzQyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMTY1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJkNDMxY2Y5NzNlYTRlZjlhNjg4NDJiMjVkZjk3MWMyYjcxYTM2MmRlOTk4YWRjNGQ4OGE1M2YyNjI2MDg1YTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.nE3jw9BCGZAM6527MXlmgpi2OBtHkSl-drajr87lplE)
+---
+
+### 4. 🗣️ Exact Phrase  
+Place quotes `" "` around phrases for exact matching.
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469207353-3f902128-e9cb-465d-8443-522cb15efdb3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTAyMzgsIm5iZiI6MTc1MzE4OTkzOCwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDczNTMtM2Y5MDIxMjgtZTljYi00NjVkLTg0NDMtNTIyY2IxNWVmZGIzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMTIxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBkY2JmNTBkNjJiODdhMjRjZjJkMDIzZDYzMzlkM2RiMjRlZmRiMzAyM2Q2OTBhY2JjYjYwZmFjY2U4ZTBiOGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.3LUbUq8cb22msgNnSZkkaWM8Dqp1xh1j2-3ZpOojNqs)
+
+---
+
+### 5. 🧩 Escaping Quotes  
+Use backslash `\` to escape multiple quotes inside a search term.
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469207503-783ca889-aeca-46ed-a3b2-942d4e5f638b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTAyNTksIm5iZiI6MTc1MzE4OTk1OSwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDc1MDMtNzgzY2E4ODktYWVjYS00NmVkLWEzYjItOTQyZDRlNWY2MzhiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMTIzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM4NDA5NTMxYjRhYmQ3ODY4ZGI1MDUyZjA3NGU0YzU0NzUzZmFhZTlhMTQ5OTcyNGRkNTRkNTk1MTgyN2RjOTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.PyfBkhuJiuuO9ggNLAEFgAG1km0_PHs4e7QksjcO8qw)
+
 
 
 
