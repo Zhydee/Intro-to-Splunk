@@ -1,4 +1,4 @@
-# Intro-to-Splunk
+# Intro to Splunk
 # 📘 Splunk Learning Journey
 
 This repo documents my learning journey with Splunk, one of the most widely used SIEM tools. I'm exploring its core features, especially the Search & Reporting app, to understand how to analyze data effectively for monitoring and alerting.
