@@ -10,7 +10,7 @@ This repo documents my learning journey with Splunk, one of the most widely used
 I installed and configured **Splunk Enterprise** on a **virtual machine running Ubuntu** during my semester break.  
 This setup allows me to practice log ingestion, create dashboards, and experiment with Splunk’s security features in a controlled environment.
 
-![image alt](<img width="957" height="448" alt="Image" src="https://github.com/user-attachments/assets/2101682a-cd1e-4723-85cf-151b0af12666" />)
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469162306-2101682a-cd1e-4723-85cf-151b0af12666.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODM4NDksIm5iZiI6MTc1MzE4MzU0OSwicGF0aCI6Ii82NzU4Nzk4NS80NjkxNjIzMDYtMjEwMTY4MmEtY2QxZS00NzIzLTg1Y2YtMTUxYjBhZjEyNjY2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDExMjU0OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY4ZGNmZGUwNGFjMDY2OWM3ZWJkMzViOWVjNGU3ZDVkNGE2ZWM5ZDcwNmRhYzY4NTEwYzNlN2NmOGY0YzdiNTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XuZN8B6Sx3ac2GPbSrTqz249prRMqFUV8-MbWQ5o8Ms)
 ---
 
 ## 📦 Built-in Apps in Splunk
@@ -28,6 +28,7 @@ Splunk comes with several built-in apps that extend its functionality:
 
 These apps help streamline monitoring, analysis, and remote access for Splunk users across various use cases.
 
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469163876-dc9e5077-27cd-47a0-bdad-d5c80f51f22a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODM5MTIsIm5iZiI6MTc1MzE4MzYxMiwicGF0aCI6Ii82NzU4Nzk4NS80NjkxNjM4NzYtZGM5ZTUwNzctMjdjZC00N2EwLWJkYWQtZDVjODBmNTFmMjJhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDExMjY1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzYWI2MTBjNzE2ZThlMDA0MWZmNjUwODBhMDAwZTNkZTBhOTIyN2EzMWIyOTI0MWM4NTZkZGM5Mzc2ZjIxZDMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ILfJCLvU7OE14k2F19SNfL8qe6KmfrZNMhhHPpEb1_8)
 ---
 
 ## 🔐 Splunk Predefined Roles
@@ -47,97 +48,67 @@ There are three predefined user roles in Splunk:
 
 The **Search & Reporting** app provides a default interface for searching, analyzing, and visualizing data.
 
-### 🧩 Main Components
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469164422-9410c59a-0a83-4d95-b3ff-d2cf0b823509.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxODQwMDQsIm5iZiI6MTc1MzE4MzcwNCwicGF0aCI6Ii82NzU4Nzk4NS80NjkxNjQ0MjItOTQxMGM1OWEtMGE4My00ZDk1LWIzZmYtZDJjZjBiODIzNTA5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDExMjgyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ0YzhjZTIwMTJkYWNjMTk2MjY4MmE2ZDNhOGUxNTNhYWY5OWE5NmM4OGY3YzUzMTM2MTZhMGJlZTJjMTg2MWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0._TzNocyOdX40wERi5QxFlb_bpbLNS79irXQZn12X9Ng)
 
-1. **Search Bar** – Run queries using strings or SPL (Search Processing Language).
-2. **Time Range Picker** – Define a specific time range to retrieve relevant events.
-3. **How to Search Panel** – Contains links to documentation and tutorials.
-    - **Data Summary Breakdown**:
-        - **Hosts** – Origin system (hostname/IP/FQDN).
-        - **Sources** – File path, port, or script where events came from.
-        - **Sourcetypes** – Classification of the data format.
-4. **Table View** – UI-driven way to explore data without writing SPL.
-5. **Search History Menu** – View and re-run past searches.
-    - **Filter Window** – Filter search history by terms.
-    - **Time Filter** – View searches from Today, Last 7 Days, or Last 30 Days.
+ ## 🆕 New Search Interface Components
 
-> **Note:**
-> By default, a search job stays active for **10 minutes**.
-> Shared jobs stay active for **7 days**.
+- **Save As Menu** – Allows saving search as knowledge object.
+- **Search Result Tabs**:
+  - **Event Tab** – Displays events returned for the search.
+  - **Pattern Tab** – Allows to see pattern in the data.
+  - **Statistic/Visualization Tabs** – Display search-generated statistics/visualizations.
+- **Search Action Button**:
+  - Edit, Send to background, Inspect search jobs, Delete search jobs
+  - **Export icon** – Raw, CSV, XML, JSON
+- **Search Mode Selector**:
+  - **Fast mode** – Cuts down on field info, only returns default and required fields.
+  - **Smart mode** – Toggles behavior based on type of search run.
+  - **Verbose mode** – Returns all fields and events, discovers everything possible.
+- **Timeline** – Dynamically decided by the time chosen in the Time Range Picker; can select specific range to investigate.
+- **Event List**
+- **Field Sidebar**:
+  - **Selected Fields** – Default fields
+  - **Interesting Fields** – Extracted by Splunk based on its metadata
+
+> **Note:** Commands that create statistics and visualizations are called **transforming commands**.
 
 ---
 
-## 🔎 Using the Search Function
+## ⏲️ Search Job Duration
 
-I uploaded sample data from this GitHub repo:  
-🔗 [splunk-sample-data](https://github.com/tmartin14/splunk-sample-data)
+- By default, a search job will remain active for **10 minutes**, after which Splunk needs to re-run the job.
+- A **shared job** will remain active for **7 days**.
 
-### 💡 Key Learnings:
+---
 
-- **Search assistant** shows auto-complete terms, syntax help, and contextual matches.
-- **Time Picker** improves performance by limiting the search scope.
-- Search results highlight the term used.
-- Default fields shown per event: `host`, `source`, `sourcetype`.
-- Hovering on text in the event list allows you to:
+## 🧭 Exploring Events
+
+In the event list:
+
+- Search term will be highlighted.
+- Events are shown with newest first.
+- Timestamp is based on user's timezone settings.
+- Bottom of each event shows: `host`, `source`, `sourcetype`
+- Rolling over text allows to:
   - Add to search
-  - Exclude matching events
-  - Start new search
-  - View event action info
+  - Exclude events with that text
+  - Launch new search using the text
+  - Info button opens dropdown for event action
 
 ---
 
-## 🆕 New Search Interface Features
+## 🧠 Using Search Terms
 
-- **Save As Menu**
-  - Save a search as a knowledge object
-- **Search Result Tabs**
-  - **Events** – Raw log output
-  - **Patterns** – View common patterns in the data
-  - **Statistics / Visualization** – Appears when a transforming command is used
-- **Search Action Buttons**
-  - Edit, Send to Background, Inspect Job, Delete Job, Export (Raw, CSV, XML, JSON)
-- **Search Mode Selector**
-  - **Fast Mode** – Returns only default/required fields
-  - **Smart Mode** – Adapts to query type
-  - **Verbose Mode** – Returns all field and event data
-- **Timeline** – Interactive range selector tied to time picker
-- **Field Sidebar**
-  - **Selected Fields** – Default fields like `_time`, `host`
-  - **Interesting Fields** – Extracted automatically by Splunk
-
-> 🧠 **Note:** Commands that generate stats/visuals (like `stats`, `chart`) are called **Transforming Commands**.
+1. Add `*` at the end of word to return events that start with the word.
+2. Not case sensitive – all matching results are returned.
+3. **Booleans** (used with multiple terms, with order of evaluation):
+   - `NOT`, `OR`, `AND`
+   - Use parentheses `()` to control evaluation order.
+4. Exact phrases – Place quotes `" "` around them.
+5. Use backslash (`\`) to escape multiple quotes.
 
 ---
 
-## ✏️ Search Term Tips
 
-1. `error*` – Add asterisk to match **events starting with a word**.
-2. **Not case sensitive** – Searches are case-insensitive by default.
-3. **Booleans**:
-    - Order of evaluation: `NOT` → `OR` → `AND`
-    - Use parentheses `()` to control logic flow
-4. **Exact phrases** – Use quotes (`"failed login"`)
-5. **Escaping quotes** – Use backslash `\"` if the phrase contains quotes.
 
----
-
-## 📌 Upcoming Modules (From Splunk Training)
-
-I'll be learning more in these next modules:
-
-### 🔸 Module 6 – What are Commands?
-- Understand the anatomy of Splunk's search language:
-  - Search terms, commands, functions, arguments, clauses
-- Learn best practices for writing efficient searches
-
-### 🔸 Module 7 – What are Knowledge Objects?
-- Five categories:
-  - Data interpretation, classification, enrichment, normalization, data models
-- Understand different types of knowledge objects and how they’re used in Splunk
-
----
-
-Stay tuned for more updates as I continue exploring Splunk!
-
-#Splunk #SIEM #CyberSecurity #LearningByDoing
 
