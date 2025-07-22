@@ -123,9 +123,15 @@ The **Field Sidebar** helps users explore fields extracted from the events in th
 
 ## ⏲️ Default Features
 
-> **Note:** Commands that create statistics and visualizations are called **transforming commands**
-> **Note:** By default, a search job will remain active for **10 minutes**, after which Splunk needs to re-run the job.
-> **Note:** A **shared job** will remain active for **7 days**.
+> 🔁 **Transforming Commands:**  
+> Commands that create statistics and visualizations are referred to as **transforming commands**.
+
+> ⏳ **Search Job Timeout:**  
+> By default, a search job will remain active for **10 minutes**. After that, Splunk must re-run the job.
+
+> 🗓️ **Shared Job Duration:**  
+> A **shared job** will remain active for **7 days**.
+
 
 ---
 
