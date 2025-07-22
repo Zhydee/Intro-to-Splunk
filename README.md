@@ -10,6 +10,7 @@ This repo documents my learning journey with Splunk, one of the most widely used
 I installed and configured **Splunk Enterprise** on a **virtual machine running Ubuntu** during my semester break.  
 This setup allows me to practice log ingestion, create dashboards, and experiment with Splunk’s security features in a controlled environment.
 
+![image alt](<img width="957" height="448" alt="Image" src="https://github.com/user-attachments/assets/2101682a-cd1e-4723-85cf-151b0af12666" />)
 ---
 
 ## 📦 Built-in Apps in Splunk
