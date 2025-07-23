@@ -196,6 +196,182 @@ Use backslash `\` to escape multiple quotes inside a search term.
 ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469207503-783ca889-aeca-46ed-a3b2-942d4e5f638b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMxOTA4NDYsIm5iZiI6MTc1MzE5MDU0NiwicGF0aCI6Ii82NzU4Nzk4NS80NjkyMDc1MDMtNzgzY2E4ODktYWVjYS00NmVkLWEzYjItOTQyZDRlNWY2MzhiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIyVDEzMjIyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzNjA2NGFlNDYxZTljOWVmYzljZGFjOTdhMGEzM2YzM2ZmNmYzNzM2N2M4MjA0NzQxYWM0YjEwNTJmOGY3NmMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5-RPTVRjEwbNr2NIByYwT_knDVoggN4DDJEfoHFyzyw)
 
 
+## 🔎 Commands for Search Result
+
+### 5 Components of Splunk's Search Language:
+1. **Search Terms** – Foundation of search queries  
+2. **Commands** – Tell Splunk what we want to do with the search results (create charts, compute statistics, format data)  
+3. **Function** – Explain how we want to chart, compute, and evaluate the results  
+4. **Arguments** – Variables we want to apply to the function  
+5. **Clauses** – Explain how we want the results grouped or defined
+
+### Most Efficient Way to Filter Events:
+1. Time  
+2. Index  
+3. Source  
+4. Host  
+5. Sourcetype
+
+---
+
+## 📚 Knowledge Objects
+
+### 5 Categories of Knowledge Objects:
+
+#### 1. Data Interpretation
+- **Fields** – Automatically extracted from data based on selected sourcetype  
+- **Field Extraction** – Manually add additional insights to your data  
+- **Calculated Fields** – Added at search time to perform calculations based on values of existing fields
+
+#### 2. Data Classification
+- **Event Types** – Categorize events based on search terms  
+- **Transaction** – Group of conceptually related events that span time
+
+#### 3. Data Enrichment
+- **Lookups** – Add other fields/values to events not included in indexed data  
+- **Workflow Actions** – Create links within events that interact with external resources or narrow the search
+
+#### 4. Data Normalization
+- **Tags** – Designate descriptive names for key-value pairs (labels); useful to search events with specific field values  
+- **Field Aliases** – Normalize data over multiple sources; assign one or more aliases to extracted fields and apply fields to a lookup table
+
+#### 5. Data Models (Search-Time Mapping)
+- **Hierarchically structured datasets** – Consist of events, searches, and/or transactions
+
+---
+
+## 📝 Creating Reports
+
+- Use reports to easily share information with others  
+- Since my data had limited info, I saved a visualization showing **which day had the most attacks**
+
+> **Note:** Naming conventions for reports vary by company
+
+### How to Access and Use Reports:
+- Go to **Reports tab** from the application menu  
+- Click title to run or open in search  
+- Use arrow to expand and view:
+  - Creator
+  - App context
+  - Permissions
+
+### Edit Menu Options:
+- **Edit Description**  
+- **Edit Permission**  
+  - By default, reports are private to the owner  
+  - To allow others to view, go to “Display for” → choose “App” and set read/write access  
+  - Only admins can display reports across all apps  
+  - Power users can be granted read/write for app-level sharing
+- **Run As Dialog**  
+  - Run as owner OR as the user executing the report  
+- **Edit Schedule**  
+  - Reduces strain from repeated ad hoc searches  
+  - Warns that scheduling overrides “Run As” setting  
+  - Options: hourly, daily, weekly, monthly or cron  
+  - Specify time range and schedule window  
+  - Trigger actions:
+    - Send via email
+    - Post to external URL (webhook)
+    - Run custom script  
+- **Edit Acceleration**  
+- Links to: **Clone**, **Embed**, **Delete**
+
+---
+
+## 📊 Creating Dashboard
+
+I used data from:  
+🔗 [DHCP Log Analysis – Splunk Project #7](https://github.com/0xrajneesh/Splunk-Projects-For-Beginners/blob/main/project%237-analyzing-dhcp-logs-using-splunk-siem.md)
+
+---
+
+### 🔧 Data Parsing
+
+Before creating the dashboard, I learned how to **Extract New Fields**:
+
+1. Chose an event from the list  
+2. On **Select Method**, I chose **Regular Expression**  
+3. On **Select Fields**, I extracted:
+   - Source IP → `src_ip`  
+   - Destination IP → `dst_ip`  
+4. On **Validate**, ensured no incorrect values were highlighted  
+5. On **Save**, I could define permission scope:
+   - Private (only me)
+   - Shared within the app
+   - Shared across all apps
+
+---
+
+### 📈 Creating Dashboards
+
+#### 1. First Panel: Top Destination IPs (`dst_ip`)
+- In Visualization, chose **Pie Chart**
+- From **Save As**, selected:
+  - Report
+  - Alert
+  - Existing Dashboard
+  - **New Dashboard**
+
+#### 2. New Dashboard Prompt:
+- Added a title  
+- Set permission:  
+  - Private  
+  - Shared in App  
+- Selected type:
+  - **Classic Dashboard**
+  - **Dashboard Studio**
+
+#### 3. Second Panel: Top Source IPs (`src_ip`)
+- In visualization, changed **legend** from right to top  
+- Saved to existing dashboard
+
+---
+
+### 🛠️ Dashboard Page Features
+
+When clicking **Edit**, I could add panels:
+
+#### Add Panel Options:
+- **New** – Create from scratch  
+- **New from Report** – Build from saved reports  
+- **Clone from Dashboard** – Copy from another dashboard  
+- **Prebuilt Panel**
+
+#### Other Options:
+- View and edit **XML source**  
+- Add input fields  
+- Toggle between **Dark** and **Light** theme
+
+#### Panel Tools:
+- **Edit Search**  
+- **Select Visualization** – Modify chart formats  
+- **More Actions**:
+  - **Edit Drilldown**  
+  - **Trellis Layout**
+
+---
+
+## 🧪 Dashboard Studio
+
+From the dashboard I created, I clicked the 3-dot menu and chose **Clone in Dashboard Studio**.
+
+### Clone Popup:
+- **Layout Mode Options**:
+  - **Absolute** – Pixel-perfect, fully customizable placement  
+  - **Grid** – Snap-aligned, organized in rows
+
+### Dashboard Studio Features:
+- Top Controls:
+  - Add new visualization  
+  - Add input  
+  - Add markdown text  
+  - Show/hide configuration panel  
+  - Configure data sources  
+  - Edit dashboard JSON
+
+---
+
+
 
 
 
