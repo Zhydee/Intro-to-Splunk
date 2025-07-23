@@ -204,6 +204,7 @@ Use backslash `\` to escape multiple quotes inside a search term.
 3. **Function** – Explain how we want to chart, compute, and evaluate the results  
 4. **Arguments** – Variables we want to apply to the function  
 5. **Clauses** – Explain how we want the results grouped or defined
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469627082-c2e29453-efff-4ea9-882a-9d6d2677316c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTcyMTUsIm5iZiI6MTc1MzI1NjkxNSwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MjcwODItYzJlMjk0NTMtZWZmZi00ZWE5LTg4MmEtOWQ2ZDI2NzczMTZjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NDgzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNhNjdkNzliOTM3ZjY3ZmE2MWY0Njk1YmQ3ZDczYmZhM2I1OGYwYzJmMTY0ZjQyY2UzNjdkMjg2Mzg5MjZhM2EmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.bPLB01O9JJn3fMfnPBer3FrMV8gsjAd_TzPyunOF670)
 
 ### Most Efficient Way to Filter Events:
 1. Time  
@@ -245,38 +246,56 @@ Use backslash `\` to escape multiple quotes inside a search term.
 - Use reports to easily share information with others  
 - Since my data had limited info, I saved a visualization showing **which day had the most attacks**
 
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469629795-4d51f57d-2e9e-46ec-b5c4-ca393eaa031f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc1MjUsIm5iZiI6MTc1MzI1NzIyNSwicGF0aCI6Ii82NzU4Nzk4NS80Njk2Mjk3OTUtNGQ1MWY1N2QtMmU5ZS00NmVjLWI1YzQtY2EzOTNlYWEwMzFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTM0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIxZjc4ODcxYmI4NzU3MDdjY2YxMzY2MGIzYWJhNzI1NDkzZmFmNTIxNzc2ZjY0ZDE2ODNiNTg3NmFjNGZhMzcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.mBbsqSQx4cxHAYh-KMIqxcUURoDBnSMpwEO0WWk4nd8)
 > **Note:** Naming conventions for reports vary by company
 
-### How to Access and Use Reports:
+### 📊 How to Access and Use Reports:
+
 - Go to **Reports tab** from the application menu  
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469630362-6b851b64-0e29-4526-b4d7-b9bc7be2de59.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc1OTAsIm5iZiI6MTc1MzI1NzI5MCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzAzNjItNmI4NTFiNjQtMGUyOS00NTI2LWI0ZDctYjliYzdiZTJkZTU5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTQ1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE0MWRmYzgxYmNkYTkzMzNlMmE4N2E4OWZlYzY0NWMwODZkZjA3OGUwNDgyOGM1ZDNkZmEwZmFhMzA1ZWUwZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.j4aIkS9rqCrxK9Ft6_vfmBeGO7I8LmdUGtnW_eX1RGQ)
+
 - Click title to run or open in search  
 - Use arrow to expand and view:
-  - Creator
-  - App context
-  - Permissions
+  - Creator  
+  - App context  
+  - Permissions  
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469630732-3575d8f4-16f9-4cbb-a7c8-f0e591d3f2c5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc2MzgsIm5iZiI6MTc1MzI1NzMzOCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzA3MzItMzU3NWQ4ZjQtMTZmOS00Y2JiLWE3YzgtZjBlNTkxZDNmMmM1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTUzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTlkZWYxZDk1ZWNlN2VhZDBiZTVhNTg3OTY0YTg4ZmQ0ZTI5OThhNzZkZWQ3NzIyNTAxOTZiZTlhZGRkZDIzOTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JVTILYniG48TdilC_fi3uCPz-yls8sXqU4YrcPco104)
 
-### Edit Menu Options:
-- **Edit Description**  
-- **Edit Permission**  
+---
+
+### ⚙️ Edit Menu Options:
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469631769-9c88aa39-d437-44d4-af6a-f7990a93334b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTgxODIsIm5iZiI6MTc1MzI1Nzg4MiwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzE3NjktOWM4OGFhMzktZDQzNy00NGQ0LWFmNmEtZjc5OTBhOTMzMzRiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MDQ0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxYWZiNTIzMGYxNGU4MjIwOTY0MjRkNGEyNjk2ZTE3MzVhNzcwZTgwMTY5MWViOGY2ZmVmMjUyZjFhODJhZjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jIMHSsy-u2gvkxVRV8PGRnzjXgraTdZLVyyQqnqRq70)
+
+- **Edit Description**
+
+- **Edit Permission**
   - By default, reports are private to the owner  
   - To allow others to view, go to “Display for” → choose “App” and set read/write access  
   - Only admins can display reports across all apps  
-  - Power users can be granted read/write for app-level sharing
-- **Run As Dialog**  
-  - Run as owner OR as the user executing the report  
-- **Edit Schedule**  
+  - Power users can be granted read/write for app-level sharing  
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469632031-aa0fc4e3-d291-4b78-8a6b-f5471db342f5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc3OTIsIm5iZiI6MTc1MzI1NzQ5MiwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzIwMzEtYWEwZmM0ZTMtZDI5MS00Yjc4LThhNmItZjU0NzFkYjM0MmY1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTgxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFiZmZkYjdiY2VhMWQ0NDM5YjA5YzJkZDc1YTdhNzhjYjNiZjE4ODI1MzA5ZjNlMDhiMGZkOGU1ZTcyYzRmZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Vsl0gBWbhrmUA-dVGhXxKFMMDgpb61hbwjr9gQvu0y4)
+
+- **Run As Dialog**
+  - Run as owner OR as the user executing the report
+
+- **Edit Schedule**
   - Reduces strain from repeated ad hoc searches  
   - Warns that scheduling overrides “Run As” setting  
   - Options: hourly, daily, weekly, monthly or cron  
   - Specify time range and schedule window  
   - Trigger actions:
-    - Send via email
-    - Post to external URL (webhook)
+    - Send via email  
+    - Post to external URL (webhook)  
     - Run custom script  
-- **Edit Acceleration**  
-- Links to: **Clone**, **Embed**, **Delete**
+    ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469632372-797a60d3-46ea-46c5-89f2-53e38b315ae5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc4NDQsIm5iZiI6MTc1MzI1NzU0NCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzIzNzItNzk3YTYwZDMtNDZlYS00NmM1LTg5ZjItNTNlMzhiMzE1YWU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTkwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg5MTIxZTE5MjAxYWYwZDYxOTM5ZjM2OTNhYjY2Y2Q4MjYyMTZlNWZmZGFmZTIyNDk4Y2I2ZjQ0NmY4MzBkOTEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.vQmAgOUqRAvAAD7Zmb4AY0aCtYJVyWDWLCUWI5cZaQY)  
+    ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469632637-9a794497-59e7-49c6-bb05-a1fa60bbc5cc.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc4OTgsIm5iZiI6MTc1MzI1NzU5OCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzI2MzctOWE3OTQ0OTctNTllNy00OWM2LWJiMDUtYTFmYTYwYmJjNWNjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTk1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NTUyYjU3MmJhYzIyODZlN2FlZmVjOTZjMDcxNTg2YjVlYzI5OWE5M2JlMDU2MDJmNmRjNTc0N2JhYjg0ODYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qyCdFJtXrG-9gzETkgW2-Hkfs1GatNRQ83B2mwTqfog)
 
----
+- **Edit Acceleration**  
+- **Clone**, **Embed**, **Delete**
+
+
 
 ## 📊 Creating Dashboard
 
@@ -288,29 +307,46 @@ I used data from:
 ### 🔧 Data Parsing
 
 Before creating the dashboard, I learned how to **Extract New Fields**:
+    ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469635212-6a0eaf7a-d510-4638-a7de-ecad7fdb35dd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTgyNzcsIm5iZiI6MTc1MzI1Nzk3NywicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzUyMTItNmEwZWFmN2EtZDUxMC00NjM4LWE3ZGUtZWNhZDdmZGIzNWRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MDYxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTljMjEwNDlmYmM2ZjM0MmY1NGIxMWU5YjJjMGY1NWIyMmE5ZmZhMjkwYzViMDE1ZWE1YmM1ZjFiMDI3YmFmNjgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.bC8lNfgGIzDfWT2pnnKLim9bSS_NtyTth81DMg7ZgR0)
 
-1. Chose an event from the list  
+1. Choose an event from the list  
+    ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469635419-e267cd71-181f-420f-bcec-08afc976299b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTgzNDksIm5iZiI6MTc1MzI1ODA0OSwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzU0MTktZTI2N2NkNzEtMTgxZi00MjBmLWJjZWMtMDhhZmM5NzYyOTliLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MDcyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJhZDI4OGYzZTU5NTQwMWYyNTczMmUwYWY5ODI5ZmZjNGU1MjllZWNmYzQ3YmNlZjEyYzU1MmU4MDY1OTY4ZmYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.5-yW6WJdZYVe4oqIvHCMOxWZ57b3i9JTtNkBqKqQhXY)
 2. On **Select Method**, I chose **Regular Expression**  
 3. On **Select Fields**, I extracted:
    - Source IP → `src_ip`  
-   - Destination IP → `dst_ip`  
+   - Destination IP → `dst_ip`
+       ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469636272-ccbfef4b-3251-4380-85fb-36b860ca7bc1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTg0MjYsIm5iZiI6MTc1MzI1ODEyNiwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzYyNzItY2NiZmVmNGItMzI1MS00MzgwLTg1ZmItMzZiODYwY2E3YmMxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MDg0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRjMmFmMWJlMGU5NjQ5NTEzMTU3M2JkMDk1NDcyOGYwMjY3Mzk5NWJiOTEwN2U5ZjVmMGQzY2QwNDZjYTc3YTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.jvLXLz0Un6utN1RFfGKQhHA5jN2g85h4i4ZT29KBAvg)
+
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469636325-ddac53f4-a91d-478d-9806-ce98160cd3ce.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTg0MzYsIm5iZiI6MTc1MzI1ODEzNiwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzYzMjUtZGRhYzUzZjQtYTkxZC00NzhkLTk4MDYtY2U5ODE2MGNkM2NlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MDg1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQxMDY1YjdmZGIzYWU4MjNkODNjYThlMTI0M2NkYjIzNzAyY2MzMjYwNzUxMDNlZjk0MWFhZjYzMDg1YzNhM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Lxjgz6Tuqg1dMX4NwNSrxcENkEvw7FxIavOZHGlYvdc)
+     
 4. On **Validate**, ensured no incorrect values were highlighted  
 5. On **Save**, I could define permission scope:
    - Private (only me)
    - Shared within the app
    - Shared across all apps
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469637344-e82a8034-48a6-4f29-aefa-bb5deff78616.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTg1ODgsIm5iZiI6MTc1MzI1ODI4OCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2MzczNDQtZTgyYTgwMzQtNDhhNi00ZjI5LWFlZmEtYmI1ZGVmZjc4NjE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MTEyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFkYmMzM2Q5YjFhZjkxY2FkN2ZhMjZjMDY5Y2RkMTA3NDZkZDdjYjgxYjkyZjg4MjgwNDZkNGU4MWIwN2JkMTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ZT7aCEplSNuUXcgE5-umdyOw6z4A3MA_-V29uddw-bM)
+
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469638484-3bbd5948-e582-4846-b8b8-5ca533db49eb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTg3MjMsIm5iZiI6MTc1MzI1ODQyMywicGF0aCI6Ii82NzU4Nzk4NS80Njk2Mzg0ODQtM2JiZDU5NDgtZTU4Mi00ODQ2LWI4YjgtNWNhNTMzZGI0OWViLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MTM0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ1Y2RmNGM3MDg1ZjRlZjI4MWUwMjM5ZWZlMzFkMGU4Y2I3ODJiNjk5YzAwM2FkOTNhMGVkMGNiMWRiNDYyMDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ODXP5Kxfu4cXDqvICulrwGMoL8oIDge33P62MWA1FYo)
 
 ---
 
 ### 📈 Creating Dashboards
 
 #### 1. First Panel: Top Destination IPs (`dst_ip`)
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469640034-797219a1-5a03-4890-8e79-679d48172c40.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTg5MDAsIm5iZiI6MTc1MzI1ODYwMCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDAwMzQtNzk3MjE5YTEtNWEwMy00ODkwLThlNzktNjc5ZDQ4MTcyYzQwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MTY0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZjNWIwZjdhNzlmOWE3MDIxNmRiNTViYWQ4ZGYyYWUzYjBlNzMzYTEzOGMzYTcwMzcwYzc5ZDZmNGQ5NmFlNWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.OdwcLYXMqbHgcuhDeoxCCKhgKjZS3CHncthQ8xzOt40)
 - In Visualization, chose **Pie Chart**
-- From **Save As**, selected:
-  - Report
-  - Alert
-  - Existing Dashboard
-  - **New Dashboard**
+ ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469628697-880ebd6d-daed-4d00-9689-d3cd5429f9d4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTc0MTgsIm5iZiI6MTc1MzI1NzExOCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2Mjg2OTctODgwZWJkNmQtZGFlZC00ZDAwLTk2ODktZDNjZDU0MjlmOWQ0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA3NTE1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEwYTY4NzM5MGJiZDY0MjQ2NTJmMTc2YmUxZDNkMDQ0ZDZlOGFiMDJmYzc3NDE0MmIwY2M5YWJlODBkMTYwODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.F26bnJwS-mc8ib2YZXI2JtqQ1qM5jE6ccKVvgKAZMUM)
+### 💾 Save As Options
+
+From the **Save As** menu, you can choose to save the current search as:
+
+- **Report**
+- **Alert**
+- **Existing Dashboard**
+- **New Dashboard**
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469640946-f32f20bf-aa79-49b4-b64b-429a6c8e5c5c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTkwMjUsIm5iZiI6MTc1MzI1ODcyNSwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDA5NDYtZjMyZjIwYmYtYWE3OS00OWI0LWI2NGItNDI5YTZjOGU1YzVjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MTg0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZlZGJlZjU1NjY5N2QzNGM5MWI4ZjBkNjdlZjQwYzg2MjFkMzgzMWJiOWM2ZGIzNGZiYmRkZTZmZmRhODY2MzUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Kq7Jnp_LoVTzFGCCgaVXgJrZJcYW8hANX7sHQZ0Uxtw)
+
 
 #### 2. New Dashboard Prompt:
 - Added a title  
@@ -322,52 +358,79 @@ Before creating the dashboard, I learned how to **Extract New Fields**:
   - **Dashboard Studio**
 
 #### 3. Second Panel: Top Source IPs (`src_ip`)
-- In visualization, changed **legend** from right to top  
-- Saved to existing dashboard
+
+- In the visualization, changed the **legend** position from **right** to **top**  
+- Saved the panel to an existing dashboard
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469642636-63f46a2c-982b-41f3-8bea-4e9b273d4d60.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTkyMzAsIm5iZiI6MTc1MzI1ODkzMCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDI2MzYtNjNmNDZhMmMtOTgyYi00MWYzLThiZWEtNGU5YjI3M2Q0ZDYwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MjIxMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVkOTkwNzgxYjQ1NjA0NGJjMGFlMGY1NWM2MWNlYTQwZTAwZTQ2MjczNDZlZDhmNWQwNDRiMDU2NjI2OTVkM2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rrcOlpNk7JsKCsqsuN9fxFtNcbWtIT4GFP_UjY6UZ0s)
+
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469644444-377c8082-182e-4a1b-9539-a23909a9f39c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTk0MjgsIm5iZiI6MTc1MzI1OTEyOCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDQ0NDQtMzc3YzgwODItMTgyZS00YTFiLTk1MzktYTIzOTA5YTlmMzljLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MjUyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ2NGJjMjFiOWNlMjdjYTFjZmI5ZmExNDQ0YTZhNGUzNTFjNTkxZWFjNGI1Y2NkMmE4M2Q4ZDQyNTE2N2UxNTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.36aMZhrhmfy3CINMd-8scF-dzDsKl62pOKJhmab3j4I)
 
 ---
 
 ### 🛠️ Dashboard Page Features
 
-When clicking **Edit**, I could add panels:
+![Image Alt](https://private-user-images.githubusercontent.com/67587985/469644787-576489b5-a6c5-4a44-8e79-3928aa19dab1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTk0ODMsIm5iZiI6MTc1MzI1OTE4MywicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDQ3ODctNTc2NDg5YjUtYTZjNS00YTQ0LThlNzktMzkyOGFhMTlkYWIxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MjYyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2ZjE1Y2Y4NTFlNDgyOGNkZDEwY2JjZGUyOGM1YzM4ZWY2NjVkYWJlZDE0NGQ5YmYyNzI5MzJiNDhkNTY1NzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.urpaL5uV-Csm36Z_RevxsnOZct6bmjlsC6_jPR-puA0)
 
-#### Add Panel Options:
+When clicking **Edit**, you can add panels using various methods:
+
+---
+
+#### ➕ Add Panel Options
+
 - **New** – Create from scratch  
 - **New from Report** – Build from saved reports  
 - **Clone from Dashboard** – Copy from another dashboard  
-- **Prebuilt Panel**
+- **Add Prebuilt Panel**  
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469645489-3fdcd7ab-11b7-4da3-8697-28fd25b7562b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTk1NDksIm5iZiI6MTc1MzI1OTI0OSwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDU0ODktM2ZkY2Q3YWItMTFiNy00ZGEzLTg2OTctMjhmZDI1Yjc1NjJiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MjcyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVhNDE3MDkyMjRiZDkyMmMxYWRkZTBlYjMwN2UwNjUwZjljOTg4NjI1OTJkZDUyOGExY2Q3ZmQ2NGMwMjBlZGMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.XXM8dvw7QiM411Q5145s-8oQxRBYG2kDR2h-xuApI1I)
 
-#### Other Options:
+---
+
+#### ⚙️ Other Options
+
 - View and edit **XML source**  
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469646102-d1eb4784-7ff4-401f-9d5a-b0fcd30fad6a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNTk2MDAsIm5iZiI6MTc1MzI1OTMwMCwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NDYxMDItZDFlYjQ3ODQtN2ZmNC00MDFmLTlkNWEtYjBmY2QzMGZhZDZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MjgyMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWIwZTM1MjE3NTBiOTZmMTBiMWY1ODNlMTc2YjNiZjJhMTkxOTM5NDliNTRjZDdhYzQyYzczMjlkMTQwZGE4ZjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.rgHXFjrd22fh7Tr-Ndm8wQzn7cFQGtGF-8TObHarANE)
+
 - Add input fields  
 - Toggle between **Dark** and **Light** theme
 
-#### Panel Tools:
-- **Edit Search**  
-- **Select Visualization** – Modify chart formats  
-- **More Actions**:
-  - **Edit Drilldown**  
+---
+
+#### 📊 Tools on Each Chart Panel
+
+- **Edit Search**
+- **Select Visualization** – Modify chart formats
+- **More Actions:**
+  - **Edit Drilldown**
   - **Trellis Layout**
 
----
 
 ## 🧪 Dashboard Studio
 
 From the dashboard I created, I clicked the 3-dot menu and chose **Clone in Dashboard Studio**.
 
-### Clone Popup:
+### 📋 Clone Popup
+
 - **Layout Mode Options**:
   - **Absolute** – Pixel-perfect, fully customizable placement  
   - **Grid** – Snap-aligned, organized in rows
 
-### Dashboard Studio Features:
-- Top Controls:
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469650837-466a06bd-a223-4142-83af-67942d2f93a8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNjAyMjYsIm5iZiI6MTc1MzI1OTkyNiwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NTA4MzctNDY2YTA2YmQtYTIyMy00MTQyLTgzYWYtNjc5NDJkMmY5M2E4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4Mzg0NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0NGIwZjc2Mjc2MzVhOTQ3OWNiODM2MDlmZjJmOTI2NWY5MDhhYWE5ZDQ2ZTY0MDY3MDhlZTMzNGVjOGI0ZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.8oXWikXworwifHGBtkrfDFCHY0LXCFRb7n1LjYWfno4)
+
+---
+
+### 🧰 Dashboard Studio Features
+
+- **Top Controls**:
   - Add new visualization  
   - Add input  
   - Add markdown text  
   - Show/hide configuration panel  
   - Configure data sources  
-  - Edit dashboard JSON
+  - Edit dashboard JSON  
+
+  ![Image Alt](https://private-user-images.githubusercontent.com/67587985/469651120-e4f9cfe1-1942-47fb-b4b5-a6c28fec112c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMyNjAyNzEsIm5iZiI6MTc1MzI1OTk3MSwicGF0aCI6Ii82NzU4Nzk4NS80Njk2NTExMjAtZTRmOWNmZTEtMTk0Mi00N2ZiLWI0YjUtYTZjMjhmZWMxMTJjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzIzVDA4MzkzMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdhOGI1MTY4NThiZmNhZDFlNjE5ODIzOTYwOWYyMmQ3NzE5YTk2ZDk0ODI4NGRjOWVjYzZkOTliMmI1NGExMDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.NZFRisBIRZxolsCNagAg1J14knZ7GBGi7VF_jzkMdFw)
+
 
 ---
 
